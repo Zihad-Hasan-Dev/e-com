@@ -7,7 +7,7 @@ const UnderMaintenance = () => {
       <div className="text-center p-6 max-w-lg mx-auto bg-white rounded-lg shadow-md">
         <Image
           className="mx-auto mb-4 w-24 h-24"
-          src="https://via.placeholder.com/150" // You can replace this with a maintenance image
+          src="" // You can replace this with a maintenance image
           alt="Under Maintenance"
         />
         <h1 className="text-2xl font-semibold text-gray-800">Well be back soon!</h1>

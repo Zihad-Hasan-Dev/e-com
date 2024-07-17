@@ -45,7 +45,6 @@ const HomePage = async () => {
       
   <div className="mt-48 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 z-50">
         
-  <div className="h-[8px] w-[600px] bg-gradient-to-r from-black to-red-800 mb-2"/>
 
   <div
           className="relative inline-flex h-10 overflow-hidden rounded-full p-[5px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 items-center justify-center">
@@ -55,7 +54,6 @@ const HomePage = async () => {
           </span>
         </div>
 
-        <div className="h-[8px] w-[400px] bg-gradient-to-r from-black to-red-800 mb-16 mt-2"/>
 
 
         <Suspense fallback={<Skeleton />}>
@@ -70,7 +68,6 @@ const HomePage = async () => {
 
       <div className="mt-24 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 pb-12">
     
-      <div className="h-[8px] w-[600px] bg-gradient-to-r from-black to-red-800 mb-2"/>
 
     <div
         className="relative inline-flex h-10 overflow-hidden rounded-full p-[5px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 items-center justify-center">
@@ -80,7 +77,6 @@ const HomePage = async () => {
         </span>
       </div>
 
-      <div className="h-[8px] w-[400px] bg-gradient-to-r from-black to-red-800 mb-16 mt-2"/>
 
 
       <Suspense fallback={<Skeleton />}>
