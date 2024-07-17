@@ -3,20 +3,20 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="py-24 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 bg-gray-100 text-sm mt-24">
+    <div className="py-24 px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 bg-orange-300 text-sm mt-24 z-50">
       {/* TOP */}
       <div className="flex flex-col md:flex-row justify-between gap-24">
         {/* LEFT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
           <Link href="/">
-            <div className="text-2xl tracking-wide">LAMA</div>
+            <div className="text-2xl tracking-wide">ZihA</div>
           </Link>
           <p>
             3252 Winding Way, Central Plaza, Willowbrook, CA 90210, United
             States
           </p>
-          <span className="font-semibold">hello@lama.dev</span>
-          <span className="font-semibold">+1 234 567 890</span>
+          <span className="font-semibold">zihadhasan711@gmail.com</span>
+          <span className="font-semibold">+1 234 567***</span>
           <div className="flex gap-6">
             <Image src="/facebook.png" alt="" width={16} height={16} />
             <Image src="/instagram.png" alt="" width={16} height={16} />
@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
       {/* BOTTOM */}
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
-        <div className="">© 2024 Lama Shop</div>
+        <div className="">© 2024 ZShop</div>
         <div className="flex flex-col gap-8 md:flex-row">
           <div className="">
             <span className="text-gray-500 mr-4">Language</span>

@@ -22,9 +22,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <WixClientContextProvider>
           <Navbar />
+          <div className="bg-gradient-to-r from-gray-950 to-gray-900">
           {children}
           <Footer />
+          </div>
         </WixClientContextProvider>
+        
       </body>
     </html>
   );

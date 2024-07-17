@@ -117,7 +117,7 @@ const CartModal = () => {
                 disabled={isLoading}
                 onClick={handleCheckout}
               >
-                Checkout
+               <a href="/profile">Checkout</a>
               </button>
             </div>
           </div>
